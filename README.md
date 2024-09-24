@@ -18,11 +18,10 @@ Tack för att du kollar in vårt projekt!
    git clone https://github.com/katkaun/taskmaster-frontend.git
    ```
 2. Navigera till projektmappen:
-```bash
-cd taskmaster-frontend
-```
+   ```bash
+   cd taskmaster-frontend
+   ```
 3. Installera beroenden:
-```bash
-npm install
-```
-
+   ```bash
+   npm install
+   ```
