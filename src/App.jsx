@@ -1,4 +1,4 @@
-import Navbar from "./stories/components/Navbar/Navbar";
+import { Navbar } from "@katkaun/taskmaster-components";
 
 function App() {
   return <Navbar />;
