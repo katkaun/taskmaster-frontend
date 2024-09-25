@@ -1,4 +1,3 @@
-import "./App.css";
 import Navbar from "./stories/components/Navbar/Navbar";
 
 function App() {
