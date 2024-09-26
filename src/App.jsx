@@ -1,7 +1,11 @@
 import { Navbar } from "@katkaun/taskmaster-components";
 
 function App() {
-  return <Navbar />;
+  return (
+    <>
+      <Navbar icons={[]}  />
+    </>
+  );
 }
 
 export default App;
