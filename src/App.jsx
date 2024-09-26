@@ -1,9 +1,9 @@
-import { Navbar } from "@katkaun/taskmaster-components";
+import { Navbar, Logo, ReminderIcon, UserIcon, CalendarIcon} from "@katkaun/taskmaster-components";
 
 function App() {
   return (
     <>
-      <Navbar icons={[]}  />
+      <Navbar icons={[ReminderIcon, CalendarIcon, UserIcon]} logo={<Logo />}/>
     </>
   );
 }
