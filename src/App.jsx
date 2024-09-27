@@ -5,13 +5,20 @@ import {
   UserIcon,
   CalendarIcon,
 } from "@katkaun/taskmaster-components";
-import './styles/variables.css'
-import styles from "./styles/Navbar.module.css"
+import "./styles/variables.css";
+import styles from "./styles/Navbar.module.css";
+import Switch from "./Switch";
+import { NavLink } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <Navbar className={styles.navbar} icons={[ReminderIcon, CalendarIcon, UserIcon]} logo={<Logo />} />
+      <Navbar
+        className={styles.navbar}
+        icons={[ReminderIcon, () => <NavLink to="/calendar"><CalendarIcon/></NavLink>,() => <NavLink to="/profile"><UserIcon /></NavLink>,]}
+        logo={<Logo />}
+      />
+      <Switch />
     </>
   );
 }
