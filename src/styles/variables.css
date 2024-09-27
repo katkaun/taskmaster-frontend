@@ -1,0 +1,9 @@
+:root {
+  --primary-bg-color: #f2f2f2;
+  --text-color: #090c19;
+  --primary-color: #a1e6d8;
+  --secondary-color: #f6c177;
+  --accent-color: #d6c8f1;
+  --button-active-color: #b39ddb;
+  --box-shadow-color: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

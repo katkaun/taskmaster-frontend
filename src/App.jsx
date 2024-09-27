@@ -1,9 +1,17 @@
-import { Navbar, Logo, ReminderIcon, UserIcon, CalendarIcon} from "@katkaun/taskmaster-components";
+import {
+  Navbar,
+  Logo,
+  ReminderIcon,
+  UserIcon,
+  CalendarIcon,
+} from "@katkaun/taskmaster-components";
+import './styles/variables.css'
+import styles from "./styles/Navbar.module.css"
 
 function App() {
   return (
     <>
-      <Navbar icons={[ReminderIcon, CalendarIcon, UserIcon]} logo={<Logo />}/>
+      <Navbar className={styles.navbar} icons={[ReminderIcon, CalendarIcon, UserIcon]} logo={<Logo />} />
     </>
   );
 }
