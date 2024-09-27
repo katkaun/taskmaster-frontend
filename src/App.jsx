@@ -15,7 +15,7 @@ function App() {
     <>
       <Navbar
         className={styles.navbar}
-        icons={[ReminderIcon, () => <NavLink to="/calendar"><CalendarIcon/></NavLink>,() => <NavLink to="/profile"><UserIcon /></NavLink>,]}
+        icons={[() => <NavLink to="reminders"><ReminderIcon/></NavLink>, () => <NavLink to="/calendar"><CalendarIcon/></NavLink>,() => <NavLink to="/profile"><UserIcon /></NavLink>,]}
         logo={<Logo />}
       />
       <Switch />

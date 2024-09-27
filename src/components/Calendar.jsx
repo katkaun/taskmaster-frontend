@@ -2,7 +2,7 @@ import React from 'react'
 
 const Calendar = () => {
   return (
-    <h1>Välkommen till kalendern</h1>
+    <h1>Welcome to the calendar</h1>
   )
 }
 
