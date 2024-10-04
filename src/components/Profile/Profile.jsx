@@ -11,7 +11,6 @@ const Profile = () => {
         <div className={styles.mail}>Epost </div>
         <div className={styles.phoneNumber}>Telefonnummer </div>
       </div>
-      <div className={styles.footerPlaceholder}>Footer </div> 
     </div>
   );
 };
