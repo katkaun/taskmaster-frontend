@@ -1,4 +1,5 @@
 import React from "react";
+import { Profile, ProfileSettings } from "@katkaun/taskmaster-components";
 import styles from "./Profile.module.css";
 
 const Profile = () => {

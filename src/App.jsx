@@ -5,9 +5,6 @@ import {
   UserIcon,
   CalendarIcon,
   Footer,
-  Register,
-  Profile,
-  ProfileSettings
 } from "@katkaun/taskmaster-components";
 import "./styles/variables.css";
 import styles from "./styles/Navbar.module.css";
