@@ -3,17 +3,12 @@ import { Profile } from "@katkaun/taskmaster-components";
 import { ProfileSettings } from "@katkaun/taskmaster-components";
 import Calendar from "./components/Calendar";
 import Reminders from "./components/Reminders";
+import Home from "./components/Home";
 
 const Switch = () => {
   return (
     <Routes>
-      <Route path="/" element={
-          <div>
-            <h1>Welcome to TaskMaster AI</h1>
-            <p>This is temporary for the home component</p>
-          </div>
-        }
-      />{" "}
+      <Route path="/" element={<Home/>} />
       <Route path="/profile" element={<Profile />} />
       <Route path="/profilesettings" element={<ProfileSettings />} />
       <Route path="/calendar" element={<Calendar />} />

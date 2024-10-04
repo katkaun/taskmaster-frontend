@@ -39,8 +39,6 @@ function App() {
         logo={<Logo />}
       />
       <Switch />
-
-      <Register className={styles.registerContainer} buttonClassName={styles.customButton} />
       <Footer />
     </>
   );
