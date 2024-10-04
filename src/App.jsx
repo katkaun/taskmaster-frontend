@@ -10,7 +10,6 @@ import "./styles/variables.css";
 import styles from "./styles/Navbar.module.css";
 import Switch from "./Switch";
 import { NavLink } from "react-router-dom";
-import Home from "./components/Home";
 
 function App() {
   return (
@@ -36,9 +35,8 @@ function App() {
         ]}
         logo={<Logo />}
       />
-      <Home />
-      <Footer />
       <Switch />
+      <Footer />
     </>
   );
 }
