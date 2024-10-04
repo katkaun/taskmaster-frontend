@@ -4,11 +4,8 @@ import {
   ReminderIcon,
   UserIcon,
   CalendarIcon,
-<<<<<<< HEAD
   Footer,
-=======
   Register,
->>>>>>> de6da5637ca5319df4a8ff5dd4bce778038cbfba
 } from "@katkaun/taskmaster-components";
 import "./styles/variables.css";
 import styles from "./styles/Navbar.module.css";
