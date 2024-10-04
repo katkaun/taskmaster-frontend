@@ -4,6 +4,7 @@ import {
   ReminderIcon,
   UserIcon,
   CalendarIcon,
+  Footer,
 } from "@katkaun/taskmaster-components";
 import "./styles/variables.css";
 import styles from "./styles/Navbar.module.css";
@@ -35,6 +36,8 @@ function App() {
         logo={<Logo />}
       />
       <Switch />
+
+    <Footer />
     </>
   );
 }
