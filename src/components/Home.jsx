@@ -1,5 +1,5 @@
 import { Register } from "@katkaun/taskmaster-components";
-import styles from "../styles/Navbar.module.css"
+import styles from "../styles/Navbar.module.cs"
 
 const Home = () => {
   return (

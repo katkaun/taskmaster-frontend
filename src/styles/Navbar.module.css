@@ -1,8 +1,4 @@
 .navbar {
-  background-color: var(--secondary-color); 
+  background-color: var(--secondary-color);
   color: var(--text-color);
 }
-
-/* .registerContainer {
-  background-color: aqua;
-} */

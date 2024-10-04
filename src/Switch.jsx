@@ -8,7 +8,7 @@ import Home from "./components/Home";
 const Switch = () => {
   return (
     <Routes>
-      <Route path="/" element={<Home/>} />
+      <Route path="/" element={<Home />} />
       <Route path="/profile" element={<Profile />} />
       <Route path="/profilesettings" element={<ProfileSettings />} />
       <Route path="/calendar" element={<Calendar />} />
