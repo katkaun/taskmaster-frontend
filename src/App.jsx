@@ -4,6 +4,7 @@ import {
   ReminderIcon,
   UserIcon,
   CalendarIcon,
+  Register,
 } from "@katkaun/taskmaster-components";
 import "./styles/variables.css";
 import styles from "./styles/Navbar.module.css";
@@ -35,6 +36,7 @@ function App() {
         logo={<Logo />}
       />
       <Switch />
+      <Register className={styles.registerContainer} buttonClassName={styles.customButton} />
     </>
   );
 }
