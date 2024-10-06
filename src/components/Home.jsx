@@ -1,12 +1,12 @@
-import { Register } from "@katkaun/taskmaster-components";
-import styles from "../styles/Navbar.module.cs"
+import { Register, Login } from "@katkaun/taskmaster-components";
+import styles from "../styles/Home.module.css";
 
 const Home = () => {
   return (
-    <Register
-      className={styles.registerContainer}
-      buttonClassName={styles.customButton}
-    />
+    <div className={styles.container}>
+      <Login />
+      <Register />
+    </div>
   );
 };
 
