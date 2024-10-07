@@ -33,7 +33,11 @@ function App() {
             </NavLink>
           ),
         ]}
-        logo={<Logo />}
+        logo = {
+          <NavLink to="/calendar">
+            <Logo/>
+          </NavLink>
+        }
       />
       <Switch />
       <Footer />
