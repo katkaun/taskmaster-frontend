@@ -14,7 +14,7 @@ import { NavLink } from "react-router-dom";
 function App() {
   return (
     <>
-      <h1>Hello World</h1>
+      <h1>Hello World again</h1>
       <Navbar
         className={styles.navbar}
         icons={[
