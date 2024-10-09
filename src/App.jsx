@@ -14,6 +14,7 @@ import { NavLink } from "react-router-dom";
 function App() {
   return (
     <>
+      <h1>Hello World</h1>
       <Navbar
         className={styles.navbar}
         icons={[
@@ -33,9 +34,9 @@ function App() {
             </NavLink>
           ),
         ]}
-        logo = {
+        logo={
           <NavLink to="/calendar">
-            <Logo/>
+            <Logo />
           </NavLink>
         }
       />
