@@ -28,7 +28,7 @@ function App() {
             </NavLink>
           ),
           () => (
-            <NavLink to="/profile">
+            <NavLink to="/userprofile">
               <UserIcon />
             </NavLink>
           ),
